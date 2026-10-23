@@ -1,0 +1,162 @@
+/* About Section Base */
+.about-section {
+  background-color: #0b0b0b;
+  color: #ffffff;
+  padding: 80px 8%;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+/* Grid Layout: Left Images, Right Content */
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Left Side: 2x2 Image Grid Container */
+.about-images {
+  position: relative;
+}
+
+.grid-2x2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  
+}
+
+.grid-2x2 img {
+  width: 150%;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 60px;
+  border: 1px solid #1a1a1a;
+  transition: transform 0.3s ease;
+}
+
+.grid-2x2 img:hover {
+  transform: translateY(-4px);
+}
+
+
+/* Right Side Content */
+.about-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.about-content h2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin: 0;
+  color: #ffffff;
+}
+
+.about-content h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin: 0;
+}
+
+.about-content p {
+  color: #a1a1aa;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin: 0 0 10px 0;
+}
+
+/* 2x2 Cards Grid for Category Boxes */
+.skills-categories-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  margin-bottom: 15px;
+}
+
+/* Individual Category Box */
+.category-box {
+  background-color: #121212;
+  border: 1px solid #1e1e1e;
+  border-radius: 12px;
+  padding: 20px;
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+.category-box:hover {
+  border-color: #2a2a2a;
+  background-color: #161616;
+}
+
+/* Orange Icons */
+.category-box svg {
+  font-size: 1.8rem;
+  color: #ff7a00;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.category-box h4 {
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0 0 6px 0;
+}
+
+.category-box p {
+  color: #8e8e93;
+  font-size: 0.82rem;
+  line-height: 1.4;
+  margin: 0;
+}
+
+/* Buttons Container */
+.about-btns {
+  display: flex;
+  gap: 16px;
+  margin-top: 10px;
+}
+
+.btn {
+  padding: 12px 28px;
+  border-radius: 30px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+/* Orange Primary Button */
+.btn-orange {
+  background-color: #ff7a00;
+  color: #ffffff;
+  border: 1px solid #ff7a00;
+}
+
+.btn-orange:hover {
+  background-color: #e66e00;
+  border-color: #e66e00;
+}
+
+/* Outline Secondary Button */
+.btn-outline {
+  background-color: transparent;
+  color: #ffffff;
+  border: 1px solid #262626;
+}
+
+.btn-outline:hover {
+  border-color: #404040;
+  background-color: #161616;
+}
+
