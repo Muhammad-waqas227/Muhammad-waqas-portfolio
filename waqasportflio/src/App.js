@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './Components/Landingpages/Home';
 import Navbar from './Components/Landingpages/Navbar/Navbar';
 import Herosection from './Components/Landingpages/Herosection/Herosection';
@@ -14,7 +14,7 @@ import Footer from './Components/Landingpages/Footer\'/Footer';
 
 export default function App() {
   return (
-    <Router basename="/Muhammad-waqas-portfolio">
+    <Router>
       <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/Navbar" element={<Navbar />} />
