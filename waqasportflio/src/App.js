@@ -1,4 +1,3 @@
-
 import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
@@ -13,12 +12,9 @@ import Testimonials from './Components/Landingpages/Testimonials/Testimonials';
 import Contact from './Components/Landingpages/Contact/Contact';
 import Footer from './Components/Landingpages/Footer\'/Footer';
 
-
-
-
 export default function App() {
   return (
-    <Router>
+    <Router basename="/Muhammad-waqas-portfolio">
       <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/Navbar" element={<Navbar />} />
@@ -30,7 +26,6 @@ export default function App() {
         <Route path="/Testimonials" element={<Testimonials />} />
         <Route path="/Contact" element={<Contact />} />
         <Route path="/Footer" element={<Footer />} />
-        
       </Routes>
     </Router>
   );
