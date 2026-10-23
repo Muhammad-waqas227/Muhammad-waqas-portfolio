@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Muhammad-waqas-portfolio/static/css/main.8926744b.css",
+    "main.js": "/Muhammad-waqas-portfolio/static/js/main.5268cd30.js",
+    "static/js/453.4834b681.chunk.js": "/Muhammad-waqas-portfolio/static/js/453.4834b681.chunk.js",
+    "static/media/safi.png": "/Muhammad-waqas-portfolio/static/media/safi.6320e212f7e4a5720d6f.png",
+    "static/media/aboutimg5.png": "/Muhammad-waqas-portfolio/static/media/aboutimg5.7eece7e29036d61e74dc.png",
+    "static/media/portfliowebsite.png": "/Muhammad-waqas-portfolio/static/media/portfliowebsite.3d205b9bb7417651a205.png",
+    "static/media/waqas.png": "/Muhammad-waqas-portfolio/static/media/waqas.3cd0178d62f99f11cb2c.png",
+    "static/media/RaGbot.png": "/Muhammad-waqas-portfolio/static/media/RaGbot.e7f6a57627581a1c31e9.png",
+    "static/media/golddigger.png": "/Muhammad-waqas-portfolio/static/media/golddigger.f3724b5d926b53a0be0f.png",
+    "static/media/muhammad.png": "/Muhammad-waqas-portfolio/static/media/muhammad.e088a986c4d1c8bad17c.png",
+    "index.html": "/Muhammad-waqas-portfolio/index.html",
+    "main.8926744b.css.map": "/Muhammad-waqas-portfolio/static/css/main.8926744b.css.map",
+    "main.5268cd30.js.map": "/Muhammad-waqas-portfolio/static/js/main.5268cd30.js.map",
+    "453.4834b681.chunk.js.map": "/Muhammad-waqas-portfolio/static/js/453.4834b681.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8926744b.css",
+    "static/js/main.5268cd30.js"
+  ]
+}
